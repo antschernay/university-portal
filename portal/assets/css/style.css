@@ -1,0 +1,102 @@
+body {
+    font-family: 'Cinzel', serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(160 122 39 / 82%);
+}
+
+a:hover {
+    text-decoration: none;
+    color:rgba(11,7,66,1);
+}
+
+
+.nav-main {    
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(11,7,66,1) 51%, rgba(3,0,2,1) 100%);
+}
+
+.nav-sec {
+    margin-top: 116px;
+    background-color: rgb(255, 252, 242);
+    border: 1px solid rgba(11,7,66,1);
+}
+
+main {
+    margin-top: 50px;   
+}
+
+
+.card {
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form {
+    padding: 5em;
+    text-align: center;
+}
+
+.extra-margin-top {
+    margin-top: 200px;
+}
+
+.btn-secondary {
+    background-color: rgb(7, 7, 54);
+    border-color: rgb(7, 7, 54);
+}
+
+.btn-outline-secondary {
+    border-color: rgb(7, 7, 54);
+    color: rgb(7, 7, 54);
+}
+
+.btn-secondary:hover, .btn-outline-secondary:hover {
+    background-color: rgb(50, 45, 94);
+    border-color: rgb(50, 45, 94);
+}
+
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);    
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-content {  
+    width: 45em;
+    height: 30em;
+    background-color: white; 
+    border-radius: 4px;    
+    padding: 20px;
+    padding-inline: 35px;
+    position: relative;
+}
+
+.form-group {
+    margin-bottom: 1em;
+    margin-inline: 1em;
+
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 40px;
+    transform: rotate(45deg);
+    cursor: pointer;
+  }
+
